@@ -24,7 +24,7 @@ If any command in this series errors, or requires user intervention, pass contro
 2. Run the following command to ensure the entire stack is up to date and ready to be fast forwarded. If this command errors, stop and tell the user.
   
   ```bash
-  git restack
+  git stack restack
   ```
 
 3. Run the following to collapse the stack into a single branch. It will handle merging all the changes into the closest branch to the main/trunk branch. If this command errors, stop and tell the user.

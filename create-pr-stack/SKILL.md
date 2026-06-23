@@ -1,6 +1,6 @@
 ---
 name: create-pr-stack
-description: Create GitHub PRs for an entire branch stack, one per branch, each targeting its stack parent as base. Use when opening PRs for a stacked set of branches (trunk <- a <- b <- c) managed with `git stack` / `git restack`.
+description: Create GitHub PRs for an entire branch stack, one per branch, each targeting its stack parent as base. Use when opening PRs for a stacked set of branches (trunk <- a <- b <- c) managed with `git stack`
 ---
 
 # Create PR Stack
@@ -11,7 +11,7 @@ at a time from the bottom (closest to trunk) upward. The critical invariant:
 PRs review cleanly as a stack instead of each showing the whole cumulative diff.
 
 **Requires**: `gh` authenticated, and the stack's parent pointers recorded (via
-`git stack new` / `git stack parent`). The `git stack` / `git restack` utilities
+`git stack new` / `git stack parent`). The `git stack` utilities
 must be on PATH.
 
 ## How the stack is defined
