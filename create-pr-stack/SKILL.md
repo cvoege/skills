@@ -75,7 +75,7 @@ processed and pushed before their children). For each `branch` with its `parent`
         gh pr edit <branch> --base <parent>
         ```
 
-2. **Create/update the PR** by following the **`create-pr` skill** for this single
+3. **Create/update the PR** by following the **`create-pr` skill** for this single
    branch (invoke that skill — it defines the required title format, scope,
    Linear issue, and body structure). Make sure to reference the linear ticket for
    additional info on the work that was meant to be completed. If the PR already 
