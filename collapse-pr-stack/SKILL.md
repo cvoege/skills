@@ -1,12 +1,12 @@
 ---
 name: collapse-pr-stack
-description: Collapse a git branch stack into a single PR. Use when asked to collapse a stack of PRs.
+description: Collapse a git branch stack into a single PR. Use when asked to collapse a stack of pull requests into a single one.
 ---
 
 # Collapse a stack of git to a single PR
 
 **Requires**: `gh` authenticated, and the stack's parent pointers recorded (via
-`git stack new` / `git stack parent`). The `git stack` / `git restack` utilities
+`git stack new` / `git stack parent`). The `git stack` utilities
 must be on PATH.
 
 If any command in this series errors, or requires user intervention, pass control back to the user.
